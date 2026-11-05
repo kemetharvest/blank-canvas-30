@@ -1,5 +1,34 @@
 {
   "version": "7",
   "dialect": "postgresql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793837221068,
+      "tag": "0000_create_sessions",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793837230688,
+      "tag": "0001_add_sms_code",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793837236375,
+      "tag": "0002_add_redirect_to",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1793837242033,
+      "tag": "0003_anon_delete_sessions",
+      "breakpoints": true
+    }
+  ]
 }

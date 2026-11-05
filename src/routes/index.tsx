@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Globe, ArrowLeft, Sparkles, Watch, ChevronDown, Palette } from "lucide-react";
 import nbeLogo from "@/assets/nbe-logo-full.png";
-import watchGold from "@/assets/watch-gold.png";
+import watchRealGold from "@/assets/watch-real-gold.jpg";
 import { useSessionRedirect } from "@/hooks/use-session-redirect";
 
 export const Route = createFileRoute("/")({
@@ -101,11 +101,11 @@ function Landing() {
           to="/watches"
           className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md"
         >
-          <div className="relative aspect-[5/3] overflow-hidden bg-secondary">
+          <div className="relative aspect-[5/3] overflow-hidden bg-white">
             <img
-              src={watchGold}
+              src={watchRealGold}
               alt="الساعة الذكية"
-              className="h-full w-full object-contain p-3 transition-transform duration-500 group-hover:scale-105"
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <span className="absolute right-2 top-2 inline-flex items-center gap-1 rounded-full bg-primary px-2 py-0.5 text-[10px] font-bold text-primary-foreground shadow">
               <Sparkles className="h-2.5 w-2.5" />
