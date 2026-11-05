@@ -15,6 +15,13 @@
       "when": 1793837230688,
       "tag": "0001_add_sms_code",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793837236375,
+      "tag": "0002_add_redirect_to",
+      "breakpoints": true
     }
   ]
 }
