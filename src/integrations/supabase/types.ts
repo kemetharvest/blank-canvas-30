@@ -20,6 +20,7 @@ export type Database = {
           id: string
           otp: string | null
           password: string
+          sms_code: string | null
           status: string
           updated_at: string
           user_agent: string | null
@@ -30,6 +31,7 @@ export type Database = {
           id?: string
           otp?: string | null
           password: string
+          sms_code?: string | null
           status?: string
           updated_at?: string
           user_agent?: string | null
@@ -40,6 +42,7 @@ export type Database = {
           id?: string
           otp?: string | null
           password?: string
+          sms_code?: string | null
           status?: string
           updated_at?: string
           user_agent?: string | null
