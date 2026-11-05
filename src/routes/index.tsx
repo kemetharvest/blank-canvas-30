@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Globe, ArrowLeft, Sparkles, Watch, ChevronDown, Palette } from "lucide-react";
 import nbeLogo from "@/assets/nbe-logo-full.png";
-import watchGold from "@/assets/watch-gold.png";
+import watchRealGold from "@/assets/watch-real-gold.jpg";
 import { useSessionRedirect } from "@/hooks/use-session-redirect";
 
 export const Route = createFileRoute("/")({

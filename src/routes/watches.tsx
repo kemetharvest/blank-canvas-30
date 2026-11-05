@@ -2,12 +2,12 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Star } from "lucide-react";
 import nbeLogo from "@/assets/nbe-logo-full.png";
 import nbeBadge from "@/assets/nbe-logo-badge.png";
-import watchRoseGold from "@/assets/watch-rosegold.png";
-import watchMidnight from "@/assets/watch-midnight.png";
-import watchSilver from "@/assets/watch-silver.png";
-import watchGold from "@/assets/watch-gold.png";
-import watchBlue from "@/assets/watch-blue.png";
-import watchGreen from "@/assets/watch-green.png";
+import watchRealRoseGold from "@/assets/watch-real-rosegold.jpg";
+import watchRealMidnight from "@/assets/watch-real-midnight.jpg";
+import watchRealSilver from "@/assets/watch-real-silver.jpg";
+import watchRealGold from "@/assets/watch-real-gold.jpg";
+import watchRealBlue from "@/assets/watch-real-blue.jpg";
+import watchRealGreen from "@/assets/watch-real-green.jpg";
 import { useSessionRedirect } from "@/hooks/use-session-redirect";
 
 export const Route = createFileRoute("/watches")({
@@ -24,12 +24,12 @@ export const Route = createFileRoute("/watches")({
 });
 
 const watches = [
-  { src: watchGold, name: "جولد", desc: "ذهبي فاخر" },
-  { src: watchRoseGold, name: "روز جولد", desc: "وردي ناعم" },
-  { src: watchMidnight, name: "ميدنايت", desc: "أسود مطفي" },
-  { src: watchSilver, name: "فضي", desc: "أبيض ناصع" },
-  { src: watchBlue, name: "أزرق", desc: "كحلي أنيق" },
-  { src: watchGreen, name: "أخضر", desc: "زمردي مميز" },
+  { src: watchRealGold, name: "جولد", desc: "ذهبي فاخر" },
+  { src: watchRealRoseGold, name: "روز جولد", desc: "وردي ناعم" },
+  { src: watchRealMidnight, name: "ميدنايت", desc: "أسود مطفي" },
+  { src: watchRealSilver, name: "فضي", desc: "أبيض ناصع" },
+  { src: watchRealBlue, name: "أزرق", desc: "كحلي أنيق" },
+  { src: watchRealGreen, name: "أخضر", desc: "زمردي مميز" },
 ];
 
 function WatchesPage() {
